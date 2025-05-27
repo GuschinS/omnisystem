@@ -4,7 +4,7 @@ export default function Features() {
     <section id="features" className="py-20 bg-lightBg">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-primary mb-10">
-          !!Комплексные решения для мониторинга транспорта
+          Комплексные решения для мониторинга транспорта
         </h2>
         <h3 className="text-xl font-semibold text-primary mb-3">
           Спутниковый мониторинг транспорта и контроль расхода топлива. Сбор и
