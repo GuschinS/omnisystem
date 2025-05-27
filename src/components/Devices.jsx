@@ -122,7 +122,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMB003</h3>
-              <p className="text-gray-600 text-left">Наш самый компактный 2G-трекер, который помещается в любой автомобиль</p>
+              <p className="text-gray-600 text-left">Наш самый компактный 2G-трекер, который помещается в любой автомобиль. С возможностью чтения данных из OBD разъема объекта.</p>
             </div>
           </li>
         </ul>
