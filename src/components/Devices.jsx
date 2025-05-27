@@ -1,4 +1,14 @@
 // src/components/Devices.jsx
+import FMT100 from '../assets/img/FMT100.webp';
+import FMP100 from '../assets/img/FMP100.webp';
+import FMB020 from '../assets/img/FMB020.webp';
+import FMB920 from '../assets/img/FMB920.webp';
+import FMB965 from '../assets/img/FMB965.webp';
+import TFT100 from '../assets/img/TFT100.webp';
+import GH5200 from '../assets/img/GH5200.webp';
+import TAT100 from '../assets/img/TAT100.webp';
+import FMB003 from '../assets/img/FMB003.webp'
+
 export default function Devices() {
   return (
     <section id="devices" className="py-20 bg-white">
@@ -10,7 +20,7 @@ export default function Devices() {
           {/* Элемент списка */}
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/FMT100.webp"
+              src={FMT100}
               alt="FMT100"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -22,7 +32,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/FMP100.webp"
+              src={FMP100}
               alt="FMP100"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -34,7 +44,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/FMB020.webp"
+              src={FMB020}
               alt="FMB020"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -46,7 +56,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/FMB920.webp"
+              src={FMB920}
               alt="FMB920"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -58,7 +68,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/FMB965.webp"
+              src={FMB965}
               alt="FMB965"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -70,7 +80,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/TFT100.webp"
+              src={TFT100}
               alt="TFT100"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -82,7 +92,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/GH5200.webp"
+              src={GH5200}
               alt="GH5200"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -94,7 +104,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/TAT100.webp"
+              src={TAT100}
               alt="TAT100"
               className="w-40 h-24 object-contain self-start md:self-center"
             />
@@ -106,7 +116,7 @@ export default function Devices() {
 
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
-              src="/src/assets/img/FMB003.webp"
+              src={FMB003}
               alt="FMB003"
               className="w-40 h-24 object-contain self-start md:self-center"
             />

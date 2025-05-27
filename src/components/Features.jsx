@@ -50,7 +50,7 @@ export default function Features() {
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Европейский Союз, Соединенное Королевство и Норвегия
+              Европейский Союз, Великобритания и Норвегия
             </h3>
             <p className="text-gray-600">
               Наши устройства работают на всей территории Европейского Союза,

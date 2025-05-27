@@ -1,5 +1,6 @@
 // src/components/Header.jsx
 import { useState } from "react";
+import logo from '../assets/logo.png';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Header() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img
-            src="/src/assets/logo.png"
+            src={logo}
             alt="Omnisystem Logo"
             className="h-24 md:h-32 w-auto"
           />
