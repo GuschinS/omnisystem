@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://guschins.github.io/omnisystempl ",
+  "homepage": "https://guschins.github.io/omnisystem",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
