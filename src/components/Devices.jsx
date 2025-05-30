@@ -74,7 +74,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMB965</h3>
-              <p className="text-gray-600 text-left">Влагостойкий и энергоэффективный 2G-трекер для мотоциклов</p>
+              <p className="text-gray-600 text-left">Влагостойкий и энергоэффективный 2G-трекер для мотоциклов. Класс защиты IP67</p>
             </div>
           </li>
 
@@ -86,7 +86,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">TFT100</h3>
-              <p className="text-gray-600 text-left">Трекер с поддержкой высокого напряжения для электромобилей и тяжелой техники</p>
+              <p className="text-gray-600 text-left">Трекер с поддержкой высокого напряжения для электромобилей и тяжелой техники. Класс защиты IP67. Рабочее напряжение 10-97 В</p>
             </div>
           </li>
 
