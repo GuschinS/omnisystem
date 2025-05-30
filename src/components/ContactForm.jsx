@@ -1,7 +1,7 @@
 // src/components/ContactForm.jsx
 export default function ContactForm() {
   return (
-    <section id="contact" className="py-20 bg-primary text-white">
+    <section id="contact" className="py-20 bg-primary text-white  dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Напишите нам</h2>
         <form action="https://formspree.io/f/xgvkjdjr" method="POST" className="max-w-lg mx-auto space-y-4">
